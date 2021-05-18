@@ -42,13 +42,6 @@
 /* ====================================== */
 
 /* MOBILE: If the browser window is smaller than 900px */
-    /* CSS RESET */
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-
     main{
         font-family: 'Calibri', 'Trebuchet MS', sans-serif;
         font-size: 1.25rem;
