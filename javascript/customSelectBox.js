@@ -33,7 +33,7 @@
                 }
             });
             if(isValid == true){
-                select_logoImage.src = `./Images/ICONS/searchbar/${srcName}.svg`;
+                select_logoImage.src = `./images/ICONS/searchbar/${srcName}.svg`;
             }
         }
 
