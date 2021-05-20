@@ -481,6 +481,13 @@ span.res__search-view-more{
     flex: 1;
 }
 
+.res__image-adjustment{
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
         /* === SPECIAL OTHER MEDIA QUERIES FOR MOBILE - RESPONSIVE SEARCH DISPLAY === */
                 /* If the browser window is 330px or smaller */
                 @media only screen and (max-width: 330px) {
