@@ -7,6 +7,7 @@
     padding-top: 70px;
 }
 
+
 .nav-container ul {
     list-style: none;
     padding: 0;
@@ -46,6 +47,11 @@ body{
         border-bottom: 1px solid #BF3D96;
         /* wrapper padding is located in icons and menu container  */
         /* since color will appear in the sropdown content background, thus padding 0 here*/
+    }
+    
+    /* prevents header from splitting apart too much when the screen size is big */
+    .header-max-width{
+        max-width: 130em;
     }
 
         .icons-and-menu-container{
@@ -234,7 +240,7 @@ body{
         margin:0;
     }
 
-    .header-wrapper{
+    .header-max-width{
         display: flex;
         justify-content: space-between;
         padding: 0; 
@@ -242,6 +248,8 @@ body{
         padding-left: 5%;
         padding-right: 5%;
         height: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .icons-and-menu-container{

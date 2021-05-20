@@ -98,6 +98,12 @@
     max-height: fit-content;
 }
 
+/*
+.hom_hero-banner-padding{
+    padding-bottom: 2.5em;
+}
+*/
+
 .hom_banner-mobile-disable{
     display: none;
 }
@@ -182,6 +188,10 @@
         min-width: 350px;
     }
 
+    .hom_----title-banner{
+        max-width: none;
+    }
+
     .hom_----title-banner h1{
         font-size: 1.75rem;
         margin-top: 10px;
@@ -195,6 +205,7 @@
     .hom_hero-banner-padding{
         padding-right: 25px;
         padding-left: 25px;
+        padding-bottom: 0;
     }
 
     .hom_tagline_desktop{

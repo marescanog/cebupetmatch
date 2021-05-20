@@ -31,6 +31,12 @@
     text-underline-offset: 7px;
 }
 
+.footer-max-width{
+    max-width: 130em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .footer-block-wrapper{
     padding: 5% 0 5% 0;
 }

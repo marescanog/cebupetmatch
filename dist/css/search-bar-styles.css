@@ -41,6 +41,13 @@
 
 /* MOBILE: If the browser window is smaller than 900px */
 
+.bar__text_form{
+    margin-top:auto;
+    height: min-content;
+    opacity: 0;
+    z-index: -10;
+}
+
 .bar_---search-bar{
   //  margin-top: 15px;
     justify-content: center;
