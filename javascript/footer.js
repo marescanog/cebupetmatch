@@ -18,6 +18,7 @@ function expandFooterMenuContent(x){
     }
 }
 
+
 // Redirect to Contact Us Page when Contact Us button is clicked
 document.getElementById("contact-button").onclick = function () {
     //location.href = "contact.html";
