@@ -411,6 +411,7 @@ Note padding left is 30px for this page
     border: 1px solid black;
     min-height: 392px;
     overflow: hidden;
+    max-width: none;
 }
 
 ul.res_-search-results-list>li {
@@ -490,8 +491,12 @@ span.res__search-view-more{
 
         /* === SPECIAL OTHER MEDIA QUERIES FOR MOBILE - RESPONSIVE SEARCH DISPLAY === */
                 /* If the browser window is 330px or smaller */
-                @media only screen and (max-width: 330px) {
-
+                @media only screen and (max-width: 400px) {
+                    .res_---search-pet-container{
+                        max-width: 250px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
 
                 /* If the browser window is 568px or larger */
