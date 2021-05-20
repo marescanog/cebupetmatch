@@ -25,8 +25,8 @@
             <div class="header-max-width">
                 <div class="icons-and-menu-container">
                     <div class="header-logo-container">
-                        <img src="./Images/LOGO/LOGO.svg" alt="Cebu Pet Match logo" class="logo-image-style">
-                        <img src="./Images/LOGO/LOGOTEXT2.svg" alt="Cebu Pet Match" class="logo-image-style">
+                        <img src="./images/LOGO/LOGO.svg" alt="Cebu Pet Match logo" class="logo-image-style">
+                        <img src="./images/LOGO/LOGOTEXT2.svg" alt="Cebu Pet Match" class="logo-image-style">
                     </div>
                     <div class="hamburger-menu-wrap">
                         <input type="checkbox" id="myCheck" onclick="displayMenuMobile()" class="toggler">
@@ -110,7 +110,7 @@
                 </svg>
                 <div class="hom_-search-banner">
                     <!-- FORM START -->
-                    <form method="post" id="hom_form_search_filter" action="search.html" class="hom_--search-banner-col-1">
+                    <form id="hom_form_search_filter" class="hom_--search-banner-col-1">
                         <div class="hom_---search-empty"></div>
                         <div class="hom_---search-block">
                             <div class="hom_----title-banner">
@@ -149,7 +149,7 @@
                                     <div class="bar__-select">                                  <!-- custom-select-wrapper -->
                                         <div class="bar__-custom-select"> <!-- custom-select -->
                                             <div class="bar__-select-trigger bar__animal">        <!-- custom-select__trigger -->
-                                                <img id="selectImage" src="./Images/ICONS/searchbar/Dog.svg" alt="animal icon" class="bar__animal-icon">
+                                                <img id="selectImage" src="./images/ICONS/searchbar/Dog.svg" alt="animal icon" class="bar__animal-icon">
                                                 <div class="bar__--anim-desc">
                                                     <span>A Dog</span>
                                                     <div class="arrow"></div>
@@ -167,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="bar_---search-button">
-                                <button class="bar__button" id="hom_search_BTN">GET STARTED</button>
+                                <button class="bar__button" id="hom_search_BTN" onclick="tempFunc(event)">GET STARTED</button>
                             </div>
                             <div>
                                 <input class="bar__text_form" type="text" name="city" id="hom_city" value="All Cebu" disabled><br>
